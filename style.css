@@ -1,0 +1,387 @@
+.container {
+    display: flex;
+    justify-content: center; 
+}
+
+
+.color{
+    color: #20b2aa;
+}
+.color1{
+    color: #90EE90;
+}
+.color2{
+    color: #90EE90;
+}
+.imgbg{
+    width: 520px;
+    height: 548px;
+    top: 217px;
+    left: 820px;
+    gap: 0px;
+    opacity: 0px;
+    background: linear-gradient(180deg, #007E85 0%, rgba(43, 133, 0, 0.49) 100%);
+
+    
+}
+
+.appointment{
+    background-color: #20b2aa;
+    color: white;
+    width: 180px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.video{
+    padding-left: 100px;
+    
+    
+    width: 51px;
+    height: 51px;
+    top: 626px;
+    left: 398px;
+     gap: 0px;
+    opacity: 0px;
+
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="checkbox"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: #008080;
+}
+
+.search-btn {
+    background-color: #008080;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+    background-color: #006666;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .form {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .input-group {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+.result{
+    color: #20b2aa;
+    padding-top: 50px;
+    margin-left: 400px;
+
+}
+.number{
+    font-size: 50px;
+    color: #20b2aa;
+}
+.number1{
+    font-size: 50px;
+    color: #20b2aa;
+}
+.number2{
+    font-size: 50px;
+    color: #20b2aa;
+}
+
+.reason{
+    color: #20b2aa;
+    font-size: 30px;
+}
+
+.started{
+    color: white;
+    background-color: #20b2aa;
+    border-radius: 22px;
+    width: 120px;
+    margin-top: 50px;
+    
+    height:50px
+
+}
+
+.talk{
+    color: #20b2aa;
+    background-color: white;
+    margin-left: 70px;
+    width:130px;
+    height: 50px;
+    border-radius: 22px;
+}
+
+.provide{
+    font-size: 30px;
+    color: #20b2aa;
+    
+    text-align:center;
+    padding-top: 100px;
+}
+
+.lorem{
+font-size: 10px;
+color: black;
+}
+.dental{
+    color: #20b2aa;
+}
+.bones{
+    color: #20b2aa;
+}
+.surgery{
+    color: #20b2aa;
+}
+.eye{
+    color: #20b2aa;
+}
+
+.team{
+    font-size: 30px;
+    color: #20b2aa;
+    
+    text-align:center;
+    padding-top: 100px;
+}
+.lorem1{
+    color: black;
+    font-size: 10px;
+}
+
+    .john{
+        color: #20b2aa;
+    }
+    .lorem2{
+        color: black;
+        font-size: 10px;
+    }
+
+    
+    .sophie{
+        color: #20b2aa;
+    }
+    .lorem3{
+        color: black;
+        font-size: 10px;
+    }
+
+    .matt{
+        color: #20b2aa;
+    }
+    .lorem4{
+        color: black;
+        font-size: 10px;
+    }
+
+    .andy{
+        color: #20b2aa;
+    }
+    .lorem5{
+        color: black;
+        font-size: 10px;
+    }
+    .team1{
+        font-size: 30px;
+    color: #20b2aa;
+    
+    text-align:center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    }
+    .google{
+        font-size: 20px;
+    }
+    .Facebook{
+        font-size: 20px;
+    }
+    .Pinterest{
+        font-size: 20px;
+    }
+    .youtube{
+        font-size: 20px;
+    }
+    .container1{
+        background-color: #20b2aa;
+        width: 100%;
+        height: 500px;
+       margin-top: 200px;
+    }
+    .product{
+        color: white;
+        margin-left: 300px;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+    .features{
+        color: white;
+        margin-left: 300px;
+
+    }
+    .pricing{
+        color: white;
+        margin-left: 300px;
+    }
+    .casestudies{
+        color: white;
+        margin-left:300px;
+    }
+    .company{
+        color: white;
+        margin-left: 200px;
+        font-size: 20px;
+        padding-bottom: 10px;
+    
+    }
+    .about{
+        color: white;
+        margin-left: 200px;
+        
+    }
+    .contact{
+        color: white;
+        margin-left: 200px;
+
+    }
+    .careers{
+        color: white;
+        margin-left: 200px;
+
+    }
+    .support{
+        color: white;
+        
+        font-size: 20px;
+        padding-bottom: 10px;
+       margin-left: 100px;
+
+    }
+    .getting{
+        color: white;
+        margin-left: 100px;
+
+    }
+    .help{
+        color: white;
+        margin-left: 100px;
+    }
+    .server{
+        color: white;
+        margin-left: 100px;
+    }
+    .follow{
+        color: white;
+        font-size: 20px;
+    }
+    .facebook{
+        color: white;
+    }
+    .twitter{
+          color: white;
+    }
+    .insta{
+        color: white;
+    }
+    .health{
+        font-size: 30px;
+        color: white;
+        
+        
+    }
+    .health1{
+        color: #20b2aa;
+        font-size: 30px;
+        padding-right: 50px;
+    
+    }
+    .home{
+        padding-right: 10px;
+        font-size: 20px;
+
+    }
+    .service{
+        padding-right: 10px;
+        font-size: 20px;
+
+    }
+    .contact1{
+        padding-right: 10px;
+        font-size: 20px;
+
+    }
+    .help1{
+        padding-right: 10px;
+        font-size: 20px;
+
+    }
+    .blogs{
+        padding-right: 10px;
+        font-size: 20px;
+
+    }
+    .sign{
+        padding-left: 40px;
+        font-size: 22px;
+        color: #20b2aa;
+
+    }
+    .login{
+        width: 120px;
+        height: 40px;
+        font-size: 22px;
+        margin-left: 20px;
+        border-radius: 10px;
+        color: white;
+        background: #20b2aa;
+    }
+   
+    
+
+
